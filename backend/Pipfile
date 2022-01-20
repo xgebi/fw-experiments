@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+itsdangerous = "*"
+python-engineio = "*"
+python-socketio = "*"
+six = "*"
+Flask = "*"
+Flask-Login = "*"
+Flask-Session = "*"
+Flask-SocketIO = "*"
+Jinja2 = "*"
+MarkupSafe = "*"
+Werkzeug = "*"
+simple-websocket = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
