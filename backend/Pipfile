@@ -16,6 +16,7 @@ Jinja2 = "*"
 MarkupSafe = "*"
 Werkzeug = "*"
 simple-websocket = "*"
+gevent = "*"
 
 [dev-packages]
 

@@ -9,6 +9,7 @@ def echo():
     try:
         while True:
             data = ws.receive()
+            print(data)
             ws.send(data)
     except simple_websocket.ConnectionClosed:
         pass
